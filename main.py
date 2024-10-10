@@ -1,15 +1,9 @@
-a= int(input("first_number:"))
-b = int(input("second_number:"))
+r= int(input("Radius:"))
+
  
-o="Sum:"
-print (o, a + b)
+o="Circumference of circle:"
+print (o, 2 * 3.14 * r)
  
-n="Subtraction:"
-print (n, a - b)
- 
-d="Multiplication:"
-print (d, a * b)
- 
-r="Division:"
-print (r, a / b)
+n="Area of circle:"
+print (n, 3.14 * r ** 2)
  
